@@ -51,7 +51,7 @@ This tool solves the repetitive, high-volume task of scanning listings, buyer/se
 
 | Feature | Description |
 |----------|-------------|
-| **Real-time Transaction Stream:** |	Hooks into webhooks and polling endpoints to ingest transaction events and trigger immediate scans and ML scoring.
+| **Real-time Transaction Stream:** |	Hooks into webhooks and polling endpoints to ingest transaction events and trigger immediate scans and ML scoring. |
 | **Heuristic Rule Engine:** |	Configurable rule sets (price spikes, repeated high-value refunds, suspicious address combos) for fast deterministic flagging. |
 | **ML Anomaly Scoring:** | Lightweight model (optional) to score listings/accounts on multi-dimensional signals — retrainable with labeled incidents. |
 | **Proxy & Geo Rotation:** |	Integrated proxy manager with geo-rotation to verify listings and buyer locations without IP-based blocking. |
@@ -75,6 +75,7 @@ This tool solves the repetitive, high-volume task of scanning listings, buyer/se
 **Frameworks:** Appium, UI Automator, Espresso (optional), FastAPI (ML & API), Celery/RQ (task queues)
 **Tools:** Appilot, Android Debug Bridge (optional), Appium Inspector, Scrcpy, Firebase Test Lab, Accessibility services
 **Infrastructure:** Dockerized device farms, Cloud emulators, Proxy networks, Parallel Device Execution, Task Queues, Real device farm, PostgreSQL / Redis for state
+
 ---
 
 ## Directory Structure
@@ -139,6 +140,8 @@ eBay-fraud-detection-bot/
 
 - **E-commerce integrators** use it to validate high-value transactions in near-real-time so they can approve shipments only after a risk check.
 
+---
+
 ## FAQs
 **Q1: How do I configure this automation for multiple accounts?**
 Create account profiles in config/accounts.yaml, assign each profile to a device group in Appilot, and use the scheduler to allocate tasks per profile. The system isolates sessions and stores credentials in an encrypted vault.
@@ -151,6 +154,7 @@ Absolutely. Rules are defined in config/rules/ (YAML). The ML scorer is modular 
 
 **Q4: Can I schedule periodic scans?**
 Yes, use the Appilot scheduler or cron-style tasks in the scheduler.py to run periodic scans, rechecks, and reporting jobs.
+
 ---
 
 ## Performance & Reliability Benchmarks

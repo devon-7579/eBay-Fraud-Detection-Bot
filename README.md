@@ -34,17 +34,11 @@ This tool solves the repetitive, high-volume task of scanning listings, buyer/se
 | Feature | Description |
 |----------|-------------|
 | **Real Devices and Emulators:** | Uses both physical Android devices and cloud/local emulators to run human-like interactions against eBay apps and mobile web sessions for accurate detection and validation. |
-
 | **No-ADB Wireless Automation:** | Supports ADB-less, wireless automation pipelines (e.g., accessibility-based control, Appilot wireless agents) so devices can be managed without tethered USB and scale easily. |
-
 | **Mimicking Human Behavior:** | Implements randomized delays, gesture smoothing, swipe/tap variability, and session patterns to mimic realistic user behavior and avoid detection by anti-bot systems. |
-
 | **Multiple Accounts Support:** |  Safely manages and isolates multiple eBay accounts per device with session separation, credential vaulting, and per-account proxies. |
-
 | **Multi-Device Integration:** | Orchestrates parallel execution across a fleet of devices (real or emulated) with centralized scheduling, task queues, and distributed logging. |
-
 | **Exponential Growth for Your Account:** | Automation patterns tuned for safe amplification of monitoring coverage, enabling coverage of more listings and transactions without linear resource growth. |
-
 | **Premium Support:** | Documentation, onboarding scripts, troubleshooting recipes, and priority support options for enterprise deployments. |
 
 ## Additional features:

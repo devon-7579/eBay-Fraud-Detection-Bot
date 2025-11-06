@@ -57,6 +57,7 @@ This tool solves the repetitive, high-volume task of scanning listings, buyer/se
 | **Proxy & Geo Rotation:** |	Integrated proxy manager with geo-rotation to verify listings and buyer locations without IP-based blocking. |
 | **Automated Takedown Workflow:**	| When thresholds are met, automatically file takedown requests, restrict listings, or escalate to human review. |
 | **Audit Logging & Reporting:** | Detailed logs, CSV/JSON export, and scheduled compliance reports for audits and dispute handling. |
+
 </p> <p align="center"> <a href="https://appilot.app" target="_blank"> <img src="media/ebay-fraud-detection-bot-banner.png" alt="ebay-fraud-detection-bot-architecture" width="95%"> </a> </p>
 
 ## How It Works

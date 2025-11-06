@@ -73,8 +73,11 @@ This tool solves the repetitive, high-volume task of scanning listings, buyer/se
 
 ## Tech Stack
 **Language:** Python, Kotlin/Java (Android helpers), JavaScript (dashboard/webhooks)
+
 **Frameworks:** Appium, UI Automator, Espresso (optional), FastAPI (ML & API), Celery/RQ (task queues)
+
 **Tools:** Appilot, Android Debug Bridge (optional), Appium Inspector, Scrcpy, Firebase Test Lab, Accessibility services
+
 **Infrastructure:** Dockerized device farms, Cloud emulators, Proxy networks, Parallel Device Execution, Task Queues, Real device farm, PostgreSQL / Redis for state
 
 ---
